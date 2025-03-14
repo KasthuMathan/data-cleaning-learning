@@ -116,7 +116,7 @@ DROP COLUMN row_num;
 
 ## After Cleaning
 
-After cleaning the dataset. I used the below command to show the cleaned data.
+After cleaning the dataset. I used the below command to show the cleaned data COUNT().
 
 <img width="455" alt="Image" src="https://github.com/user-attachments/assets/d378732e-446f-494d-ae34-b425d0c33523" />
 
