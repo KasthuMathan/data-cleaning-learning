@@ -39,9 +39,12 @@ IGNORE 1 ROWS;
 
 ## Steps Taken
 1. **Truncated the table** before re-importing locally:
+*YOU CAN USE EITHER:*
 ```sql
 TRUNCATE TABLE my_table;
 ```
+*OR*
+Open MySQL Workbench and double-clicked on the table to select it. By right-clicking on the table, you can see "Truncate Table" from the menu.
 
 2. Used LOAD DATA LOCAL INFILE to import the dataset successfully.
 3. Verified the row count:
