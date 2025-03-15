@@ -3,17 +3,17 @@
 This project follows **Alex Freberg's YouTube tutorial** on data cleaning using SQL. I applied various SQL techniques to clean and structure the dataset.
 
 ## Project Overview
-- Performed data cleaning using **SQL** in **MySQL Workbench**.
+- Performed data cleaning using SQL in MySQL Workbench.
 - Faced an issue where only **564 rows** were imported instead of the full dataset.
 - Resolved the issue by manually importing the file and using 'LOAD DATA LOCAL INFILE'.
 
 ## Dataset
-- The dataset used in this project is the **same dataset from Alex Freberg's tutorial**.
+- The dataset used in this project is the same dataset from Alex Freberg's tutorial.
 - To follow along, you can check it on his channel [here](https://www.youtube.com/@AlexTheAnalyst).
 
 ## Tools Used
-- **SQL (MySQL)**
-- **MySQL Workbench**
+- SQL (MySQL)
+- MySQL Workbench
 
 ## Issues & Solutions
 
@@ -23,7 +23,7 @@ The dataset has 2361 rows (without the column names), but when importing the dat
 ![images/1. initial.png](https://github.com/KasthuMathan/data-cleaning-learning/blob/main/images/1.%20initial.png)
 
 ### **Solution:**
-After researching the issue, I found that using 'LOAD DATA LOCAL INFILE' was an effective way to import the full dataset. Before using this command, I **truncated the table** to avoid duplicate entries.
+After researching the issue, I found that using 'LOAD DATA LOCAL INFILE' was an effective way to import the full dataset. Before using this command, I truncated the table to avoid duplicate entries.
 
 ```sql
 LOAD DATA LOCAL INFILE '/my/file/path.csv'
@@ -38,7 +38,7 @@ IGNORE 1 ROWS;
 ![images/2. local infile.png](https://github.com/KasthuMathan/data-cleaning-learning/blob/main/images/2.%20local%20infile.png)
 
 ## Steps Taken
-1. **Truncated the table** before re-importing locally:
+1. Truncated the table before re-importing locally:
 *YOU CAN USE EITHER:*
 ```sql
 TRUNCATE TABLE my_table;
@@ -125,8 +125,8 @@ After cleaning the dataset. I used the below command to show the cleaned data CO
 
 ## Key Learnings
 - How to troubleshoot SQL import issues in MySQL Workbench.
-- Hands-on experience with SQL **SQL sata cleaning techniques**.
-- Undersatnding **proper data formatting** before analysis
+- Hands-on experience with SQL data cleaning techniques.
+- Undersatnding proper data formatting before analysis
 
 ## How to Use This Project
 1. You can use to dataset named layoff.csv or you can download the dataset from [**Alex Freberg's tutorial**](https://youtu.be/4UltKCnnnTA?si=yubPoghpmCJOzFyD).
