@@ -20,7 +20,7 @@ This project follows **Alex Freberg's YouTube tutorial** on data cleaning using 
 ### **Problem:**
 The dataset has 2361 rows (without the column names), but when importing the dataset into MySQL, only **564 rows** were imported instead of the full dataset.
 
-<img width="455" alt="Image" src="https://github.com/user-attachments/assets/d9c90f51-d422-4618-8d02-214781af40a2" />
+![images/1. initial.png](https://github.com/KasthuMathan/data-cleaning-learning/blob/main/images/1.%20initial.png)
 
 ### **Solution:**
 After researching the issue, I found that using 'LOAD DATA LOCAL INFILE' was an effective way to import the full dataset. Before using this command, I **truncated the table** to avoid duplicate entries.
@@ -35,7 +35,7 @@ IGNORE 1 ROWS;
 
 ```
 
-<img width="455" alt="Image" src="https://github.com/user-attachments/assets/93959d6e-dcc5-4549-b1d9-0db1c65843ba" />
+![images/2. local infile.png](https://github.com/KasthuMathan/data-cleaning-learning/blob/main/images/2.%20local%20infile.png)
 
 ## Steps Taken
 1. **Truncated the table** before re-importing locally:
@@ -118,7 +118,7 @@ DROP COLUMN row_num;
 
 After cleaning the dataset. I used the below command to show the cleaned data COUNT().
 
-<img width="455" alt="Image" src="https://github.com/user-attachments/assets/d378732e-446f-494d-ae34-b425d0c33523" />
+![<img width="455" alt="Image" src="https://github.com/user-attachments/assets/d378732e-446f-494d-ae34-b425d0c33523" />](https://github.com/KasthuMathan/data-cleaning-learning/blob/main/images/3.%20after%20cleaning%20data.png)
 
 ## Key Learnings
 - How to troubleshoot SQL import issues in MySQL Workbench.
