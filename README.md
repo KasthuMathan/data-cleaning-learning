@@ -126,7 +126,7 @@ After cleaning the dataset. I used the below command to show the cleaned data CO
 - Undersatnding **proper data formatting** before analysis
 
 ## How to Use This Project
-1. You can use to dataset named layoff.csv or you can download the dataset from **Alex Freberg's tutorial** (https://youtu.be/4UltKCnnnTA?si=yubPoghpmCJOzFyD).
+1. You can use to dataset named layoff.csv or you can download the dataset from [**Alex Freberg's tutorial**] (https://youtu.be/4UltKCnnnTA?si=yubPoghpmCJOzFyD).
 2. Create a table in MySQL matching the dataset structure.
 3. Use LOAD DATA LOCAL INFILE to import the dataset.
 4. Apply the data cleaning SQL queries to transform the data.
