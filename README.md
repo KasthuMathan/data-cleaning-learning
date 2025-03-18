@@ -126,7 +126,7 @@ After cleaning the dataset. I used the below command to show the cleaned data CO
 ## Key Learnings
 - How to troubleshoot SQL import issues in MySQL Workbench.
 - Hands-on experience with SQL data cleaning techniques.
-- Undersatnding proper data formatting before analysis
+- Understanding proper data formatting before analysis
 
 ## How to Use This Project
 1. You can use to dataset named layoff.csv or you can download the dataset from [**Alex Freberg's tutorial**](https://youtu.be/4UltKCnnnTA?si=yubPoghpmCJOzFyD).
